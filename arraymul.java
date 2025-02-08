@@ -27,12 +27,28 @@ public class arraymul {
         arr[i][j] = scanner.nextInt();
       }
     }
+    System.out.println("First Matrix : ");
+    for (int i = 0; i < n; i++) {
+      for (int j = 0; j < col; j++) {
+        System.out.print(arr[i][j] + " ");
+      }
+      System.out.println();
+    }
 
-    System.out.println("Enter the elements 2nd of the array:");
+    System.out.println(
+      "Enter the elements 2nd of the array:");
     for (int i = 0; i < row; i++) {
       for (int j = 0; j < col; j++) {
         arr2[i][j] = scanner.nextInt();
       }
+    }
+
+    System.out.println("second Matrix : ");
+    for (int i = 0; i < n; i++) {
+      for (int j = 0; j < col; j++) {
+        System.out.print(arr2[i][j] + " ");
+      }
+      System.out.println();
     }
 
     // third array to store the multiplic
