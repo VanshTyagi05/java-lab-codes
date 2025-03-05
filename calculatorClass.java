@@ -22,13 +22,13 @@ public class calculatorClass {
     System.out.print("enter the second number:");
     b=sc.nextInt();
     int add=sum(a,b);
-    System.out.println("additon"+add);
+    System.out.println("additon "+add);
     int sub=subtract(a,b);
-    System.out.println("subtract"+sub);
+    System.out.println("subtract "+sub);
     int div=divide(a,b);
-    System.out.println("division"+div);
+    System.out.println("division "+div);
     int mul=multiply(a, b);
-    System.out.println("multiplication"+mul);
+    System.out.println("multiplication "+mul);
 
   }
 }
